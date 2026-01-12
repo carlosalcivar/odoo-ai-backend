@@ -10,7 +10,7 @@ import json
 class AIOrchestrator:
     def __init__(self):
         self.llm = ChatGroq(
-            model="llama-3.1-70b-versatile",
+            model="llama-3.3-70b-versatile",
             api_key=settings.GROQ_API_KEY,
             temperature=0.3,
             max_tokens=4096
