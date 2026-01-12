@@ -1,0 +1,27 @@
+# FastAPI y servidor
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Validación y configuración
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# HTTP cliente
+httpx==0.26.0
+
+# Multipart forms
+python-multipart==0.0.6
+
+# LangChain y Groq
+langchain==0.1.4
+langchain-groq==0.0.3
+langchain-core==0.1.14
+
+# Supabase
+supabase==2.3.4
+
+# Variables de entorno
+python-dotenv==1.0.0
+
+# Utilidades
+tenacity==8.2.3
