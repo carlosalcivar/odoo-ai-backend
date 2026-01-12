@@ -13,15 +13,12 @@ httpx==0.26.0
 python-multipart==0.0.6
 
 # LangChain y Groq
-langchain==0.1.4
-langchain-groq==0.0.3
-langchain-core==0.1.14
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langchain-core>=0.1.0
 
 # Supabase
-supabase==2.3.4
+supabase>=2.0.0
 
 # Variables de entorno
 python-dotenv==1.0.0
-
-# Utilidades
-tenacity==8.2.3
